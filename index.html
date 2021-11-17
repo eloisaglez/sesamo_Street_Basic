@@ -112,12 +112,7 @@
       
      }
       
-      #video {
-        margin: 0 auto; 
-        width: 400px;
-        **display:block**
-     }
-      
+   
     </style>
   </head>
 
@@ -125,7 +120,7 @@
     <h1> SESAMO STREET</h1>
     <h2> This WEB is dedicated to <strong>Sesamo Street</strong>, to remember my childhood.</h2>
      
-     <audio id ="audio"  aling="center" controls = "controls" preload ="preload">
+     <audio  style="display:block; margin: 0 auto"; controls = "controls" preload ="preload">
           <source src="audio/barrio_sesamo.mp3" type="audio/mp3">
           <source src="audio/barrio_sesamo.ogg" type="audio/ogg">
           <source src="audio/barrio_sesamo.wav" type="audio/wav">
@@ -183,7 +178,8 @@
 
     <div class= "clase1">
        <h3>SESAMO STREET VIDEO PROMO</h3>
-      
+       
+      <!-- centro el video, elementos <video> son elementos en línea, no elementos de bloque. -->
         <video style="display:block; margin: 0 auto;" controls = "controls" preload ="preload"> 
            <source src="video/video_Sesamo.mp4" type="video/mp4">
            <source src="video/video_Sesamo.ogg" type="video/ogg">
